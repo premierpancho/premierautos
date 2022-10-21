@@ -119,4 +119,4 @@ const Testimonial = ({
 Testimonial.propTypes = propTypes;
 Testimonial.defaultProps = defaultProps;
 
-export default Testimonial;
+export default Testimonial;//

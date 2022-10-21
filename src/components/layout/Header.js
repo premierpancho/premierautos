@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -44,7 +45,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +67,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -78,13 +79,19 @@ const Header = ({
     <header
       {...props}
       className={classes}
+      style={{
+        paddingTop: 20,
+        paddingBottom: 20
+      }}
     >
       <div className="container">
         <div className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
-          )}>
+          )}
+
+        >
           <Logo />
           {!hideNav &&
             <>
@@ -111,18 +118,17 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li>
+                    
                   </ul>
-                  {!hideSignin &&
+                  <FooterSocial />
+                  {/* {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
                       <li>
                         <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
                       </li>
-                    </ul>}
+                    </ul>} */}
                 </div>
               </nav>
             </>}

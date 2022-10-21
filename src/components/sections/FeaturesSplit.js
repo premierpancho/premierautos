@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'NUESTROS SERVICIOS',
+    paragraph: ''
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  NUESTROS SERVICIOS
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  COMPRA DE TU VEHICULO
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  No lo pienses más realizamos la compra de vehículos usados con toda la garantía y seguridad necesaria que solo nuestro concesionario podrá ofrecerte. Agenda tu cita ahora mismo y vive la mejor experiencia para la venta de tu carro.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/vehiculo-01.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  NUESTROS SERVICIOS
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                 Venta de vehiculos Nuevos y Usados
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  En Premier Autos tenemos la cualidad de ofrecer vehiculos con los mejores estandares de calidad en el mercado. Tambien tenemos la cualidad de vender vehiculos nuevos listos para traspaso y usados como nuevos.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/compra.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +119,17 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  NUESTROS SERVICIOS
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  CONSIGNACIÓN
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Ofrecemos este servicio de consignación para la seguridad del vendedor, ya que la persona no tiene que atender clientes desconocidos en su casa u oficina y suministrar sus datos personales, lo que sí sucede al vender directamente. 
+                  Con este servicio evitaras tener que dedicar tiempo al proceso de venta.
+                  Por lo mismo ofrecemos ciertos beneficios como mostrar el vehículo en nuestra vitrina con nuestro equipo de ventas física, webside, publicaciones y así poder tener una eficacia en la rapidez de venta, te garantizamos el pago por su vehículo, pago de contado.
+                  Teniendo en cuenta el beneficio en la tramitación profesional de documentos y como un plus en nuestra vitrina de usados podemos ofrecer planes de financiación con diversas identidades.
+                  .
                   </p>
               </div>
               <div className={
@@ -135,7 +139,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/consignacion.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
