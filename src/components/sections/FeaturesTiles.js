@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                     PASO 1
                     </h4>
                   <p className="m-0 text-sm">
-                      Valoramos y revisamos tu vehículo..
+                      Valoramos y revisamos tu vehículo.
                     </p>
                 </div>
               </div>

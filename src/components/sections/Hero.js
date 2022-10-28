@@ -61,7 +61,7 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Premier <span className="text-color-primary">Autos</span>
+              PREMIER <span className="text-color-primary">AUTOS</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -70,7 +70,7 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="//api.whatsapp.com/send?phone=573165270922&text=Hola esto interesado en premier autos">
-                    Contactanos
+                    Contáctanos
                   </Button>
                 </ButtonGroup>
               </div>
@@ -85,7 +85,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')} //IMAGEN DEL VIDEO
+                src={require('./../../assets/images/portada.png')} //IMAGEN DEL VIDEO
                 alt="Hero"
                 width={896}
                 height={504} />
